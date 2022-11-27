@@ -108,7 +108,7 @@ img {
     align-items: center;
     width: 150px;
     margin-bottom: 150px;
- 
+
 }
 
 .random-picture {
@@ -135,11 +135,41 @@ img {
 }
 
 .quote {
-    height: 450px;
+    height: 180px;
     background-color: rgb(229, 231, 235);
+    padding: 80px 22%;
     display: flex;
+    flex-direction: column;
 }
 
-.quote .text {
+.text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
     color: black;
+    text-align: right;
+    font-weight: bold;
+}
+
+.call-to-action {
+    margin: 100px 18%;
+    background-color: #3287ff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 40px 120px;
+}
+
+.call-to-action .sign-up {
+    border: 1px solid white;
+}
+
+.action-header {
+    margin: 0px;
+    display: block;
+    font-weight: bold;
 }
