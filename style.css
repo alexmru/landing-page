@@ -161,7 +161,8 @@ img {
     border-radius: 15px;
     display: flex;
     align-items: center;
-    padding: 40px 120px;
+    justify-content: space-between;
+    padding: 40px 110px;
 }
 
 .call-to-action .sign-up {
@@ -172,4 +173,17 @@ img {
     margin: 0px;
     display: block;
     font-weight: bold;
+    font-size: 28px;
+}
+
+.action-sub {
+    font-size: 18px;
+}
+
+.footer {
+    color: white;
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 18px;
 }
